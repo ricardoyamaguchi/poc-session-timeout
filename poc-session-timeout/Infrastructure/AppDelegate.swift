@@ -8,7 +8,6 @@
 
 import UIKit
 
-@UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
@@ -16,6 +15,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        NotificationCenter.default.addObserver(self,
+                                               selector: #selector(AppDelegate.applicationDidTimeout(notification:)),
+                                               name: .appTimeout,
+                                               object: nil
+        )
+        
         return true
     }
 
@@ -41,6 +46,45 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
 
+    @objc
+    func applicationDidTimeout(notification: NSNotification) {
+        
+        guard let window = window, !(topViewController() is ViewController) else { return }
+        
+        let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main)
+        let viewController = storyboard.instantiateViewController(withIdentifier: "viewController")
+        
+        let transition = createTransition()
+        window.layer.add(transition, forKey: kCATransition)
+        window.rootViewController = viewController
+        window.makeKeyAndVisible()
+        
+        
+    }
+    
+    private func createTransition() -> CATransition {
+        let transition = CATransition()
+        transition.duration = 0.3
+        transition.type = .push
+        transition.subtype = .fromLeft
+        transition.timingFunction = CAMediaTimingFunction(name:CAMediaTimingFunctionName.easeInEaseOut)
+        return transition
+    }
+    
+    func topViewController(base: UIViewController? = UIApplication.shared.keyWindow?.rootViewController) -> UIViewController? {
+        if let nav = base as? UINavigationController {
+            return topViewController(base: nav.visibleViewController)
+        }
+        if let tab = base as? UITabBarController {
+            if let selected = tab.selectedViewController {
+                return topViewController(base: selected)
+            }
+        }
+        if let presented = base?.presentedViewController {
+            return topViewController(base: presented)
+        }
+        return base
+    }
 
 }
 
