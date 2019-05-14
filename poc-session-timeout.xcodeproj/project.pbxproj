@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0AA7DA87228A3EB500908190 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA7DA86228A3EB500908190 /* AppDelegate.swift */; };
+		0AA7DA89228A3EB500908190 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA7DA88228A3EB500908190 /* ViewController.swift */; };
+		0AA7DA8C228A3EB500908190 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AA7DA8A228A3EB500908190 /* Main.storyboard */; };
+		0AA7DA8E228A3EB600908190 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AA7DA8D228A3EB600908190 /* Assets.xcassets */; };
+		0AA7DA91228A3EB600908190 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AA7DA8F228A3EB600908190 /* LaunchScreen.storyboard */; };
+		0AA7DA9C228A3EB600908190 /* poc_session_timeoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA7DA9B228A3EB600908190 /* poc_session_timeoutTests.swift */; };
+		0AA7DAA7228A3EB600908190 /* poc_session_timeoutUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AA7DAA6228A3EB600908190 /* poc_session_timeoutUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0AA7DA98228A3EB600908190 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0AA7DA7B228A3EB500908190 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0AA7DA82228A3EB500908190;
+			remoteInfo = "poc-session-timeout";
+		};
+		0AA7DAA3228A3EB600908190 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0AA7DA7B228A3EB500908190 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0AA7DA82228A3EB500908190;
+			remoteInfo = "poc-session-timeout";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0AA7DA83228A3EB500908190 /* poc-session-timeout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "poc-session-timeout.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AA7DA86228A3EB500908190 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0AA7DA88228A3EB500908190 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0AA7DA8B228A3EB500908190 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0AA7DA8D228A3EB600908190 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0AA7DA90228A3EB600908190 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0AA7DA92228A3EB600908190 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AA7DA97228A3EB600908190 /* poc-session-timeoutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "poc-session-timeoutTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AA7DA9B228A3EB600908190 /* poc_session_timeoutTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = poc_session_timeoutTests.swift; sourceTree = "<group>"; };
+		0AA7DA9D228A3EB600908190 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0AA7DAA2228A3EB600908190 /* poc-session-timeoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "poc-session-timeoutUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0AA7DAA6228A3EB600908190 /* poc_session_timeoutUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = poc_session_timeoutUITests.swift; sourceTree = "<group>"; };
+		0AA7DAA8228A3EB600908190 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0AA7DA80228A3EB500908190 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AA7DA94228A3EB600908190 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AA7DA9F228A3EB600908190 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0AA7DA7A228A3EB500908190 = {
+			isa = PBXGroup;
+			children = (
+				0AA7DA85228A3EB500908190 /* poc-session-timeout */,
+				0AA7DA9A228A3EB600908190 /* poc-session-timeoutTests */,
+				0AA7DAA5228A3EB600908190 /* poc-session-timeoutUITests */,
+				0AA7DA84228A3EB500908190 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0AA7DA84228A3EB500908190 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0AA7DA83228A3EB500908190 /* poc-session-timeout.app */,
+				0AA7DA97228A3EB600908190 /* poc-session-timeoutTests.xctest */,
+				0AA7DAA2228A3EB600908190 /* poc-session-timeoutUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0AA7DA85228A3EB500908190 /* poc-session-timeout */ = {
+			isa = PBXGroup;
+			children = (
+				0AA7DA86228A3EB500908190 /* AppDelegate.swift */,
+				0AA7DA88228A3EB500908190 /* ViewController.swift */,
+				0AA7DA8A228A3EB500908190 /* Main.storyboard */,
+				0AA7DA8D228A3EB600908190 /* Assets.xcassets */,
+				0AA7DA8F228A3EB600908190 /* LaunchScreen.storyboard */,
+				0AA7DA92228A3EB600908190 /* Info.plist */,
+			);
+			path = "poc-session-timeout";
+			sourceTree = "<group>";
+		};
+		0AA7DA9A228A3EB600908190 /* poc-session-timeoutTests */ = {
+			isa = PBXGroup;
+			children = (
+				0AA7DA9B228A3EB600908190 /* poc_session_timeoutTests.swift */,
+				0AA7DA9D228A3EB600908190 /* Info.plist */,
+			);
+			path = "poc-session-timeoutTests";
+			sourceTree = "<group>";
+		};
+		0AA7DAA5228A3EB600908190 /* poc-session-timeoutUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0AA7DAA6228A3EB600908190 /* poc_session_timeoutUITests.swift */,
+				0AA7DAA8228A3EB600908190 /* Info.plist */,
+			);
+			path = "poc-session-timeoutUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0AA7DA82228A3EB500908190 /* poc-session-timeout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AA7DAAB228A3EB600908190 /* Build configuration list for PBXNativeTarget "poc-session-timeout" */;
+			buildPhases = (
+				0AA7DA7F228A3EB500908190 /* Sources */,
+				0AA7DA80228A3EB500908190 /* Frameworks */,
+				0AA7DA81228A3EB500908190 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "poc-session-timeout";
+			productName = "poc-session-timeout";
+			productReference = 0AA7DA83228A3EB500908190 /* poc-session-timeout.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0AA7DA96228A3EB600908190 /* poc-session-timeoutTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AA7DAAE228A3EB600908190 /* Build configuration list for PBXNativeTarget "poc-session-timeoutTests" */;
+			buildPhases = (
+				0AA7DA93228A3EB600908190 /* Sources */,
+				0AA7DA94228A3EB600908190 /* Frameworks */,
+				0AA7DA95228A3EB600908190 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0AA7DA99228A3EB600908190 /* PBXTargetDependency */,
+			);
+			name = "poc-session-timeoutTests";
+			productName = "poc-session-timeoutTests";
+			productReference = 0AA7DA97228A3EB600908190 /* poc-session-timeoutTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0AA7DAA1228A3EB600908190 /* poc-session-timeoutUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0AA7DAB1228A3EB600908190 /* Build configuration list for PBXNativeTarget "poc-session-timeoutUITests" */;
+			buildPhases = (
+				0AA7DA9E228A3EB600908190 /* Sources */,
+				0AA7DA9F228A3EB600908190 /* Frameworks */,
+				0AA7DAA0228A3EB600908190 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0AA7DAA4228A3EB600908190 /* PBXTargetDependency */,
+			);
+			name = "poc-session-timeoutUITests";
+			productName = "poc-session-timeoutUITests";
+			productReference = 0AA7DAA2228A3EB600908190 /* poc-session-timeoutUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0AA7DA7B228A3EB500908190 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Ricardo Yamaguchi";
+				TargetAttributes = {
+					0AA7DA82228A3EB500908190 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					0AA7DA96228A3EB600908190 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 0AA7DA82228A3EB500908190;
+					};
+					0AA7DAA1228A3EB600908190 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 0AA7DA82228A3EB500908190;
+					};
+				};
+			};
+			buildConfigurationList = 0AA7DA7E228A3EB500908190 /* Build configuration list for PBXProject "poc-session-timeout" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0AA7DA7A228A3EB500908190;
+			productRefGroup = 0AA7DA84228A3EB500908190 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0AA7DA82228A3EB500908190 /* poc-session-timeout */,
+				0AA7DA96228A3EB600908190 /* poc-session-timeoutTests */,
+				0AA7DAA1228A3EB600908190 /* poc-session-timeoutUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0AA7DA81228A3EB500908190 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AA7DA91228A3EB600908190 /* LaunchScreen.storyboard in Resources */,
+				0AA7DA8E228A3EB600908190 /* Assets.xcassets in Resources */,
+				0AA7DA8C228A3EB500908190 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AA7DA95228A3EB600908190 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AA7DAA0228A3EB600908190 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0AA7DA7F228A3EB500908190 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AA7DA89228A3EB500908190 /* ViewController.swift in Sources */,
+				0AA7DA87228A3EB500908190 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AA7DA93228A3EB600908190 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AA7DA9C228A3EB600908190 /* poc_session_timeoutTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0AA7DA9E228A3EB600908190 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AA7DAA7228A3EB600908190 /* poc_session_timeoutUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0AA7DA99228A3EB600908190 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0AA7DA82228A3EB500908190 /* poc-session-timeout */;
+			targetProxy = 0AA7DA98228A3EB600908190 /* PBXContainerItemProxy */;
+		};
+		0AA7DAA4228A3EB600908190 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0AA7DA82228A3EB500908190 /* poc-session-timeout */;
+			targetProxy = 0AA7DAA3228A3EB600908190 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0AA7DA8A228A3EB500908190 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0AA7DA8B228A3EB500908190 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0AA7DA8F228A3EB600908190 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0AA7DA90228A3EB600908190 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0AA7DAA9228A3EB600908190 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0AA7DAAA228A3EB600908190 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0AA7DAAC228A3EB600908190 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4A723W25N6;
+				INFOPLIST_FILE = "poc-session-timeout/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ryam.poc-session-timeout";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0AA7DAAD228A3EB600908190 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4A723W25N6;
+				INFOPLIST_FILE = "poc-session-timeout/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ryam.poc-session-timeout";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0AA7DAAF228A3EB600908190 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4A723W25N6;
+				INFOPLIST_FILE = "poc-session-timeoutTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ryam.poc-session-timeoutTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/poc-session-timeout.app/poc-session-timeout";
+			};
+			name = Debug;
+		};
+		0AA7DAB0228A3EB600908190 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4A723W25N6;
+				INFOPLIST_FILE = "poc-session-timeoutTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ryam.poc-session-timeoutTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/poc-session-timeout.app/poc-session-timeout";
+			};
+			name = Release;
+		};
+		0AA7DAB2228A3EB600908190 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4A723W25N6;
+				INFOPLIST_FILE = "poc-session-timeoutUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ryam.poc-session-timeoutUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "poc-session-timeout";
+			};
+			name = Debug;
+		};
+		0AA7DAB3228A3EB600908190 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4A723W25N6;
+				INFOPLIST_FILE = "poc-session-timeoutUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ryam.poc-session-timeoutUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "poc-session-timeout";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0AA7DA7E228A3EB500908190 /* Build configuration list for PBXProject "poc-session-timeout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AA7DAA9228A3EB600908190 /* Debug */,
+				0AA7DAAA228A3EB600908190 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AA7DAAB228A3EB600908190 /* Build configuration list for PBXNativeTarget "poc-session-timeout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AA7DAAC228A3EB600908190 /* Debug */,
+				0AA7DAAD228A3EB600908190 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AA7DAAE228A3EB600908190 /* Build configuration list for PBXNativeTarget "poc-session-timeoutTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AA7DAAF228A3EB600908190 /* Debug */,
+				0AA7DAB0228A3EB600908190 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0AA7DAB1228A3EB600908190 /* Build configuration list for PBXNativeTarget "poc-session-timeoutUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AA7DAB2228A3EB600908190 /* Debug */,
+				0AA7DAB3228A3EB600908190 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0AA7DA7B228A3EB500908190 /* Project object */;
+}
